@@ -1,0 +1,19 @@
+# 走行データ・生成物（個人情報・大容量のためGit管理対象外）
+cam-data/
+
+# 学習済みモデル（大容量、convert_model.py で再生成可能）
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
